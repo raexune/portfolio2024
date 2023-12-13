@@ -1,0 +1,59 @@
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}
+
+body {
+  color: white;
+  background-color: black;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  position: relative;
+}
+
+nav {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav a:link,
+nav a:visited {
+  text-decoration: none;
+  color: white;
+  margin: 2rem;
+}
+
+nav span {
+  font-size: 3.2rem;
+  color: turquoise;
+}
+
+nav img {
+  height: 3.2rem;
+  width: 3.2rem;
+  margin: 0.4rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+}
+
+.hero h1 span {
+  color: turquoise;
+}
+
+.hero img {
+  height: 40rem;
+  width: 40rem;
+}
